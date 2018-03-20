@@ -1,0 +1,23 @@
+var drawDot = function( xc,yc,rad,color){
+    var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", xc);
+    circle.setAttribute("cy", yc);
+    circle.setAttribute("r", rad);
+    circle.setAttribute("fill", color);
+    svg.appendChild(circle);
+}
+
+
+var swich = function(e){
+    if (OAR) {
+    }
+    else{
+
+    }
+    
+}
+
+var buton = document.getElementById("switch");
+buton.addEventListener("click", swich);
+
+var svg = document.getElementById("slate");
